@@ -1,0 +1,110 @@
+.default{
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.default .section-title{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 40px;
+    
+}
+
+.default .section-desc{
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 40px;
+    color: rgba(128, 128, 128, 0.722);
+    
+}
+
+.default .section-body{
+    margin: auto;
+    max-width: 1300px;
+}
+
+.default.light{
+    background-color: #f7f7f7;
+}
+
+.default.light .section-title{
+    color: black;
+}
+
+.default.light .section-body{
+    color: black;
+}
+
+
+.default.dark{
+    background-color: black;
+}
+
+.default.dark .section-title{
+    color: white;
+}
+
+.default.dark .section-body{
+    color: white;
+}
+
+.default.dark .section-desc{
+    color: white;
+}
+
+.button{
+    display: inline-block;
+    background-color: #B28756;
+    color: white;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+/* SECTION ABOUT US */
+
+
+.section-about{
+    display: flex;
+}
+
+.section-about .about-left{
+    flex: 1;
+}
+
+.about-left p{
+    font-size: 14px;
+    line-height: 25px;
+    
+}
+
+.section-about .about-right{
+    flex: 1;
+    width: 500px; 
+    text-align: center;  
+}
+
+.section-about .about-right img{
+   width: 480px;
+   box-shadow: 0px 5px 10px black;
+}
+
+
+
+
