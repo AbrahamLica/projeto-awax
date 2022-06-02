@@ -233,7 +233,7 @@
     background-color: rgba(0, 0, 0, 0.519);
     width: inherit;
     height: inherit;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     flex-direction: column;
@@ -247,4 +247,53 @@
     font-weight: 600;
 }
 
+.section-projects-photoarea:hover .section-projects-photoinfo{
+    display: flex;
+}
 
+
+
+
+
+
+
+
+
+.bg-team{
+    background-image: url('../assets/media/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+}
+
+
+.section-team-area{
+    background-color: rgba(0, 0, 0, 0.628);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.section-team{
+    overflow: hidden;
+}
+
+.section-team .sliders{
+    width: 1000vw;
+    height: 100%;
+}
+
+.section-team .slide{
+    width: 100vw;
+    height: 100%;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.85);
+}
+
+.section-team .slide-area{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
